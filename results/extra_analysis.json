@@ -1,0 +1,276 @@
+{
+ "image_resnet50": {
+  "prec": [
+   98.92,
+   93.53,
+   94.39
+  ],
+  "rec": [
+   96.49,
+   91.55,
+   99.46
+  ],
+  "f1": [
+   97.69,
+   92.53,
+   96.86
+  ],
+  "n": [
+   285,
+   142,
+   186
+  ],
+  "ece": 6.34,
+  "brier": 0.0633,
+  "conf_correct": 92.05,
+  "conf_wrong": 75.26,
+  "wrong_conf_gt90": 5,
+  "n_wrong": 23,
+  "err_patients": 15,
+  "top3": 9
+ },
+ "image_efficientnet_b0": {
+  "prec": [
+   98.94,
+   95.1,
+   98.4
+  ],
+  "rec": [
+   97.89,
+   95.77,
+   99.46
+  ],
+  "f1": [
+   98.41,
+   95.44,
+   98.93
+  ],
+  "n": [
+   285,
+   142,
+   186
+  ],
+  "ece": 8.26,
+  "brier": 0.0361,
+  "conf_correct": 91.22,
+  "conf_wrong": 56.35,
+  "wrong_conf_gt90": 0,
+  "n_wrong": 13,
+  "err_patients": 9,
+  "top3": 7
+ },
+ "image_densenet201": {
+  "prec": [
+   99.29,
+   96.48,
+   98.4
+  ],
+  "rec": [
+   98.6,
+   96.48,
+   99.46
+  ],
+  "f1": [
+   98.94,
+   96.48,
+   98.93
+  ],
+  "n": [
+   285,
+   142,
+   186
+  ],
+  "ece": 6.28,
+  "brier": 0.0307,
+  "conf_correct": 92.84,
+  "conf_wrong": 76.7,
+  "wrong_conf_gt90": 5,
+  "n_wrong": 10,
+  "err_patients": 7,
+  "top3": 6
+ },
+ "image_bifam_next": {
+  "prec": [
+   99.29,
+   95.21,
+   99.47
+  ],
+  "rec": [
+   97.54,
+   97.89,
+   100.0
+  ],
+  "f1": [
+   98.41,
+   96.53,
+   99.73
+  ],
+  "n": [
+   285,
+   142,
+   186
+  ],
+  "ece": 6.24,
+  "brier": 0.0351,
+  "conf_correct": 93.51,
+  "conf_wrong": 90.64,
+  "wrong_conf_gt90": 9,
+  "n_wrong": 10,
+  "err_patients": 10,
+  "top3": 3
+ },
+ "image_overlap": {
+  "union": 31,
+  "by_k": {
+   "1": 16,
+   "2": 7,
+   "3": 6,
+   "4": 2
+  },
+  "jaccard": {
+   "resnet50|efficientnet_b0": 0.5,
+   "resnet50|densenet201": 0.32,
+   "resnet50|bifam_next": 0.179,
+   "efficientnet_b0|densenet201": 0.353,
+   "efficientnet_b0|bifam_next": 0.15,
+   "densenet201|bifam_next": 0.176
+  }
+ },
+ "patient_resnet50": {
+  "prec": [
+   97.97,
+   83.54,
+   98.0
+  ],
+  "rec": [
+   94.77,
+   93.84,
+   93.04
+  ],
+  "f1": [
+   96.35,
+   88.39,
+   95.45
+  ],
+  "n": [
+   306,
+   146,
+   158
+  ],
+  "ece": 4.89,
+  "brier": 0.0895,
+  "conf_correct": 92.36,
+  "conf_wrong": 74.44,
+  "wrong_conf_gt90": 6,
+  "n_wrong": 36,
+  "err_patients": 7,
+  "top3": 25
+ },
+ "patient_efficientnet_b0": {
+  "prec": [
+   98.05,
+   88.68,
+   100.0
+  ],
+  "rec": [
+   98.37,
+   96.58,
+   91.14
+  ],
+  "f1": [
+   98.21,
+   92.46,
+   95.36
+  ],
+  "n": [
+   306,
+   146,
+   158
+  ],
+  "ece": 7.44,
+  "brier": 0.0683,
+  "conf_correct": 90.23,
+  "conf_wrong": 65.4,
+  "wrong_conf_gt90": 2,
+  "n_wrong": 24,
+  "err_patients": 6,
+  "top3": 17
+ },
+ "patient_densenet201": {
+  "prec": [
+   100.0,
+   88.48,
+   98.65
+  ],
+  "rec": [
+   97.06,
+   100.0,
+   92.41
+  ],
+  "f1": [
+   98.51,
+   93.89,
+   95.42
+  ],
+  "n": [
+   306,
+   146,
+   158
+  ],
+  "ece": 6.71,
+  "brier": 0.0617,
+  "conf_correct": 91.44,
+  "conf_wrong": 70.35,
+  "wrong_conf_gt90": 1,
+  "n_wrong": 21,
+  "err_patients": 5,
+  "top3": 16
+ },
+ "patient_bifam_next": {
+  "prec": [
+   99.33,
+   87.88,
+   100.0
+  ],
+  "rec": [
+   97.06,
+   99.32,
+   92.41
+  ],
+  "f1": [
+   98.18,
+   93.25,
+   96.05
+  ],
+  "n": [
+   306,
+   146,
+   158
+  ],
+  "ece": 5.41,
+  "brier": 0.0639,
+  "conf_correct": 92.68,
+  "conf_wrong": 83.02,
+  "wrong_conf_gt90": 11,
+  "n_wrong": 22,
+  "err_patients": 6,
+  "top3": 19
+ },
+ "patient_overlap": {
+  "union": 54,
+  "by_k": {
+   "1": 26,
+   "2": 15,
+   "3": 5,
+   "4": 8
+  },
+  "jaccard": {
+   "resnet50|efficientnet_b0": 0.395,
+   "resnet50|densenet201": 0.267,
+   "resnet50|bifam_next": 0.318,
+   "efficientnet_b0|densenet201": 0.324,
+   "efficientnet_b0|bifam_next": 0.353,
+   "densenet201|bifam_next": 0.387
+  }
+ }
+}

@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "How Much of the 99% Is Patient Overlap? Image-Level versus Patient-Level Evaluation of Deep Brain Tumor Classifiers on the Figshare MRI Collection"
+authors:
+  - family-names: Vanitha
+    given-names: V.
+  - family-names: Srivani
+    given-names: M.
+  - family-names: Arulkumaran
+    given-names: G.
+  - family-names: Bhasker
+    given-names: B.
+  - family-names: Geman
+    given-names: Oana
+  - family-names: Burlacu
+    given-names: Alexandru
+license: MIT
+version: "1.0.0"
+date-released: "2026-10-02"

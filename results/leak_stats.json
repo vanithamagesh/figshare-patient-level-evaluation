@@ -1,0 +1,22 @@
+{
+ "threeclass_image": {
+  "test_slices": 613,
+  "test_patients": 197,
+  "test_slices_with_patient_in_training": 611,
+  "test_patients_in_training": 195,
+  "nn_r_median": 0.924,
+  "nn_r_q90": 0.96,
+  "share_r_above_0_9": 0.674,
+  "share_nn_same_patient": 0.835
+ },
+ "threeclass_patient": {
+  "test_slices": 610,
+  "test_patients": 46,
+  "test_slices_with_patient_in_training": 0,
+  "test_patients_in_training": 0,
+  "nn_r_median": 0.825,
+  "nn_r_q90": 0.894,
+  "share_r_above_0_9": 0.077,
+  "share_nn_same_patient": 0.0
+ }
+}
